@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2020.12.5"
+click = "==7.1.2"
+elasticsearch = "==7.12.1"
+elasticsearch-dsl = "==7.3.0"
+itsdangerous = "==1.1.0"
+python-dateutil = "==2.8.1"
+python-dotenv = "==0.17.1"
+six = "==1.15.0"
+urllib3 = "==1.26.4"
+Flask = "==1.1.2"
+Flask-Cors = "==3.0.10"
+Jinja2 = "==2.11.3"
+MarkupSafe = "==1.1.1"
+Werkzeug = "==1.0.1"
+flask-sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
